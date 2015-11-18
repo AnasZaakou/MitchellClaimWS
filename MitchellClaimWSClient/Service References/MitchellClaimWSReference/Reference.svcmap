@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7d775f6b-cd6f-4890-a2c4-5aad40ab18eb" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:51387/ClaimService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ClaimService.xsd" MetadataType="Schema" ID="ae1027f7-99a2-429d-b146-172d2f856102" SourceId="1" SourceUrl="http://localhost:51387/ClaimService.svc?xsd=xsd3" />
+    <MetadataFile FileName="ClaimService.disco" MetadataType="Disco" ID="d26c423f-27dd-4170-9a5e-cf7fac4598a7" SourceId="1" SourceUrl="http://localhost:51387/ClaimService.svc?disco" />
+    <MetadataFile FileName="ClaimService.wsdl" MetadataType="Wsdl" ID="86196b68-938f-4730-9613-cd239d1ca97d" SourceId="1" SourceUrl="http://localhost:51387/ClaimService.svc?wsdl" />
+    <MetadataFile FileName="ClaimService1.xsd" MetadataType="Schema" ID="8b3b83d9-677a-4be9-a2aa-b472cb4ca8a4" SourceId="1" SourceUrl="http://localhost:51387/ClaimService.svc?xsd=xsd2" />
+    <MetadataFile FileName="ClaimService2.xsd" MetadataType="Schema" ID="357a7df8-cbab-4968-ab22-34438065ed12" SourceId="1" SourceUrl="http://localhost:51387/ClaimService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ClaimService3.xsd" MetadataType="Schema" ID="aa1db9fa-e6f4-4d2a-a2d2-5b5e8e75880b" SourceId="1" SourceUrl="http://localhost:51387/ClaimService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
